@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-        body{
+       body{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: rgb(29, 61, 61);
-            background-color: rgb(247, 249, 249);
+            color: rgb(166, 216, 216);
+            background: linear-gradient(to right, rgb(27, 27, 31), rgb(56, 117, 139));
            
         }
-        table{
-            border-radius: 10px;
-            padding: 20px;
-        }
-        th{
-            border-right: 2px rgb(17, 178, 167);
-        }
+        
         li{
             list-style-type:decimal;
             font-size: larger;
@@ -30,31 +24,46 @@
         }
         a{
             text-decoration: none;
-            color: rgb(29, 61, 61);
+            color: rgb(11, 224, 224);
 
         }
         a:hover{
             font-size: 18px;
             transition: 0.2s;
-            color: rgb(17, 178, 167);
+            color: rgb(9, 247, 172);
         }
         li:hover{
             font-size: 28px;
             transition: 0.2s;
-            color: rgb(17, 178, 167);
+            color: rgb(135, 239, 232);
         }
         h1:hover{
-            color:rgb(17, 178, 167);
+            color:rgb(135, 239, 232);
+        }
+        button{
+            background-color: rgba(6, 105, 105, 0.468);
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 20px;
+            border: solid 2px rgb(8, 191, 219);
         }
 
-        td{
+        table{
+            
+            border-radius: 20px;
+        }
+        tr{
+            height: 50px;
+        }
+        .form{
             padding:20px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <table align="center">
-        <tr style="background-color: rgb(166, 192, 199);">
+        <tr style="background-color: rgb(24, 56, 65);">
             <th height="70px" style="text-align: center; " colspan="8"><h1>STACKLY</h1></th></tr>
         <tr height=80px>
             
@@ -66,7 +75,7 @@
             <th width="200px"><button type="submit"><a href="#">LOGIN</a></button></th>
         </tr>
 
-        <table align="center" style="background-color:  rgb(166, 192, 199);"">
+        <table class="form" align="center" style="background-color:  rgb(25, 81, 96);"">
             <tr>
                 <th colspan="8">LOGIN FORM</th>
             </tr> 
@@ -104,7 +113,7 @@
                 </td>
             </tr>
             <tr>
-                <TD><button type="submit"><a>SUBMIT INFO</a></button></TD>
+                <TD colspan="2" align="center"><button type="submit"><a>SUBMIT</a></button></TD>
                 
             </tr>
         </table>
